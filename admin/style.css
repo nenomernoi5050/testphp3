@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    background-color: #8c8c8c;
+
+}
+.header {
+    height: 80px;
+    background-color: black;
+    color: #c8c8c8;
+}
+.header a {
+    text-decoration: none;
+    color: #c8c8c8;
+    margin-right: 12px;
+}
+.header a.active {
+    text-decoration: none;
+    color: #c8171b;
+}
+.menu {
+    text-align: center;
+    padding-top: 10px;
+}
+.content table{
+    margin: 40px auto;
+    border:2px solid black;
+    width: 800px;
+    background-color: #adadad;
+
+}
+.content table tr td   {
+    border:2px solid black;
+    font-size: 18px;
+    color: #000000;
+    padding: 10px;
+}
+.content table th  {
+    border:2px solid black;
+    font-size: 18px;
+    color: #000000;
+    padding: 10px;
+}
+.content table a {
+    font-size: 18px;
+
+}
+
+.addPage {
+    display: inline-grid;
+    float: right;
+    margin: 50px 300px;
+}
+.addPage input {
+    width:500px;
+    margin: 5px auto;
+}
+.addPage textarea {
+    width:500px;
+    height: 500px;
+}
+.seccuse{
+    text-align: right;
+    color: rgb(48, 204, 13);
+    padding-right: 100px;
+    font-weight: bold;
+}
+.error{
+    text-align: right;
+    color: rgb(200, 23, 27);
+    padding-right: 100px;
+    font-weight: bold;
+}

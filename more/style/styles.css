@@ -1,0 +1,338 @@
+body {
+    background-color: #c8c8c8;
+    margin: 0;
+    padding: 0;
+}
+.peremen{
+    font-size: 18px;
+    color:red;
+    border: 2px solid green;
+    padding: 10px;
+}
+p {
+    font-size: 18px;
+    color: white;
+    border-bottom: 2px solid green;
+    padding-top: 20px;
+    background-color: rgba(146, 57, 3, 0.25);
+    margin-top: 20px;
+    border: 2px solid #6db3ff;
+}
+.header{
+    width:100%;
+    display: inline-block;
+    background-color: white;
+
+
+
+}
+.h_block1{
+
+    width:20%;
+    float:left;
+    padding: 10px;
+
+
+}
+.h_block2{
+
+    width:20%;
+    float:right;
+    padding: 10px;
+}
+.h_block2 button{
+    float:right;
+    margin-right: 20px;
+}
+.h_block3{
+    padding: 10px;
+
+}
+.h_block3 .phone{
+    color:red;
+    float:right;
+}
+.h_block3 .phone2{
+    color:red;
+    float: right;
+}
+.h_block3 .menu{
+    color: #ffbc37;
+    margin: 10px;
+    position: relative;
+    padding-left: 100px;
+}
+.main{
+    width:100%;
+    display: inline-block;
+
+}
+.m_block1{
+
+    width:20%;
+    float:left;
+    height: 100%;
+    background-color: white;
+}
+.m_block2{
+
+    width:20%;
+    float:right;
+    height: 100%;
+    background-color: white;
+}
+.m_block3{
+
+    height: 100%;
+    padding-left: 40px;
+    padding-top: 20px;
+
+}
+.footer{
+    flex:1;
+    width:100%;
+    display: inline-block;
+
+}
+.f_block1{
+
+    width:20%;
+    float:left;
+}
+.f_block2{
+
+    width:20%;
+    float:right;
+}
+.f_block3{
+
+
+}
+.block_l_menu {
+    border: 1px solid #6db3ff;
+    border-radius:0 30px 0 0;
+    height: 450px;
+    line-height: 25px;
+    background-color: #19edd7;
+}
+.block_l_menu  ul {
+    padding-top: 40px;
+    padding-left: 17px;
+
+}
+.block_l_menu {
+     list-style: none;
+     padding-bottom: 7px ;
+     position: relative;
+
+ }
+.block_l_menu  li {
+
+    position: relative;
+}
+.block_l_menu   li:hover{
+
+    background-color: #1affec;
+    border: 1px solid #28b7cd;
+    border-radius: 0 30px 30px  0;
+
+}
+.block_l_menu  .sub_1{
+    position: absolute;
+    top: 5px;
+    left: 150px;
+    z-index: 10;
+    display: none;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #1affec;
+
+
+}
+.block_l_menu >li:hover .sub_1  {
+    display: block;
+    border-radius: 0 30px 30px  0;
+
+}
+
+.block_l_menu   a{
+display: block;
+    font-size: 16px;
+    color: #343434;
+    text-decoration: none;
+    padding: 10px;
+}
+.block_l_menu   a:hover{
+
+    color: #252525;
+    font-weight: bold;
+
+
+}
+
+
+
+.baner{
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+//-------------------------------------------
+
+
+
+
+.h_menu   ul {
+    padding-top: 40px;
+    padding-left: 17px;
+      display: inline;
+}
+.h_menu {
+    list-style: none;
+    padding-bottom: 7px ;
+left:50px;
+    border: 1px solid #6db3ff;
+    border-radius:0 30px 0 0;
+    height: 35px;
+    line-height: 25px;
+    background-color: #19edd7;
+    width: 100%;
+}
+.h_menu   li {
+display:inline-block;
+    position: relative;
+}
+.h_menu   li:hover{
+
+    background-color: #1affec;
+
+
+
+}
+.h_menu  .sub_h{
+    position: absolute;
+    top: 45px;
+
+    z-index: 10;
+    display: none;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #1affec;
+
+
+}
+.h_menu  >li:hover .sub_h  {
+    display: block;
+
+
+}
+
+.h_menu    a{
+    display: block;
+    font-size: 16px;
+    color: #343434;
+    text-decoration: none;
+    padding: 10px;
+}
+.h_menu   a:hover{
+
+    color: #252525;
+    font-weight: bold;
+
+
+}
+.slideout-menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    width: 20%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    display: none;
+    background-color: #1f6377;
+}
+
+.slideout-panel {
+    position: relative;
+    z-index: 1;
+    will-change: transform;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+    overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+    display: block;
+}
+.menu a {
+    color: #fff;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.menu-header {
+    border-bottom: 1px solid #2a2d2f;
+    padding: 20px;
+    background-size: 32px;
+}
+
+.menu-header-title {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.menu-section {
+    margin: 25px 0;
+}
+
+.menu-section-title {
+    text-transform: uppercase;
+    color: #85888d;
+    font-weight: 200;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    margin:0;
+}
+
+.menu-section-list {
+    padding:0;
+    margin: 10px 0;
+    list-style:none;
+}
+
+.menu-section-list a {
+    display: block;
+    padding: 10px 20px;
+}
+
+.panel {
+    text-align: center;
+    padding-top: 5px;
+    min-height: 100%;
+}
+
+#mocha {
+    text-align: left;
+    margin:0 !important;
+}
+
+#mocha-stats {
+    top: 70px;
+}

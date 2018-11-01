@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS сброс стилей -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Стили для корзины -->
+	<link media="screen" href="demo/styles/demo.css" type="text/css" rel="stylesheet" /> <!-- Стили для демонстрации, при добавлении к себе на сайт необходимо удалить -->
+
+	<title>Анимированное взаимодействие с корзиной сайта | Демонстрация для сайта RUDEBOX</title>
+</head>
+<body>
+<main>"<br><br><br><br><br><br><br><br><br>
+	<a href="#22" class="cd-add-to-cart" id = "superid" data-price="29.99" >Добавить в корзину</a>
+	<a href="#22" class="cd-add-to-cart" id = "superid1" data-price="19.99" >Добавить в корзину</a>
+</main>
+
+<div class="cd-cart-container empty">
+	<a href="#0" class="cd-cart-trigger">
+		Корзина
+		<ul class="count"> <!--кол-во  товаров в корзине-->
+			<li>0</li>
+			<li>0</li>
+		</ul> <!-- .count -->
+	</a>
+
+	<div class="cd-cart">
+		<div class="wrapper">
+			<header>
+				<h2>Продукция в Вашей корзине:</h2>
+				<span class="undo">Товар удален. <a href="#0">Отменить?</a></span>
+			</header>
+
+			<div class="body">
+				<ul>
+					<!-- продукты, добавленные в корзину будут вставлены здесь с помощью JavaScript -->
+				</ul>
+			</div>
+
+			<footer>
+				<a href="#0" class="checkout btn"><em>Оплатить покупки</em></a>
+			</footer>
+		</div>
+	</div> <!-- .cd-cart -->
+</div> <!-- cd-cart-container -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- ссылка на jQuery -->
+</body>
+</html>
