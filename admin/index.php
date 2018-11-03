@@ -1,5 +1,5 @@
 <?php
-
+//version control
 require_once '../db.php';
 
 function showTablePage($link, $info)
